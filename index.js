@@ -12,6 +12,7 @@ app.get("/login", (req, res) => {
   res.send("<h1>Login Page</h1>");
 });
 
+//Dummy page
 app.get("/logout", (req, res) => {
   res.send("<h1>Logout Page</h1>");
 });
